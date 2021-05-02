@@ -1,0 +1,9 @@
+.about-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
+}
