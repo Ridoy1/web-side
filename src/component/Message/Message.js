@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 const Message = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
     return (
         <div className='w-100 text-center d-flex justify-content-center' style={{backgroundColor: '#F8F9FA'}}>
