@@ -12,6 +12,7 @@ const Bar = () => {
             <Nav.Link className="mr-5"> <Link className="text-dark" to="/">Home</Link></Nav.Link>
             <Nav.Link className="mr-5"> <Link className="text-dark" to="/about">About</Link></Nav.Link>
             <Nav.Link className="mr-5"> <Link className="text-dark" to="/resume">Resume</Link></Nav.Link>
+            <Nav.Link className="mr-5"> <Link className="text-dark" to="/project">Project</Link></Nav.Link>
             <Nav.Link className="mr-5"> <Link className="text-dark" to="/service">Service</Link></Nav.Link>
             <Nav.Link className="mr-5"> <Link className="text-dark" to="/contact">Contact</Link></Nav.Link>
           </Nav>

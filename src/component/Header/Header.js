@@ -16,7 +16,7 @@ const Header = () => {
                     
                     loop={Infinity}
                     wrapper="b"
-                    steps={[' Web Developer', 3000, ' Programmer', 3000, ' Web Designer', 3000]}
+                    steps={[' Full-Stack Developer', 3000, ' Programmer', 3000, ' Web Designer', 3000]}
                 />
                 </span>
                 </h2>

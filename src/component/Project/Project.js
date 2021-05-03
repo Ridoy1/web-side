@@ -1,24 +1,24 @@
 import React from 'react';
-import webdesign from '../../image/web-design.png';
-import developer from '../../image/coding.png';
-import graphic from '../../image/illustration.png';
+import beauty from '../../image/beauty.PNG';
+import food from '../../image/food.PNG';
+import player from '../../image/player.PNG';
 import ProjectDetails from '../ProjectDetails.js/ProjectDetails';
 
 const projectData = [
     {
-        name: 'Web Design',
-        img: webdesign,
-        details: 'We specialize in web design services.'
+        name: 'Beauty center',
+        img: beauty,
+        details: 'Beauty center service .'
     },
     {
-        name: 'Web Development',
-        img: developer,
-        details: 'We specialize in Web Development services.'
+        name: 'Food item',
+        img: food,
+        details: 'Food item list.'
     },
     {
-        name: 'Graphic Design',
-        img: graphic,
-        details: 'We specialize in Graphic Design services.'
+        name: 'Player',
+        img: player,
+        details: 'player list and selected player list.'
     }
 ]
 
