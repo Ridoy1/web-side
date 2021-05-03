@@ -7,6 +7,7 @@ import Message from '../Message/Message';
 import Bar from '../Share/Navbar/Bar';
 import Service from '../Service/Service';
 import Skills from '../Skills/Skills';
+import Project from '../Project/Project';
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
             <Header/>
             <About/>
             <Skills/>
-            <Experience/>
+            <Project/>
             <Service/>
             <Message/>
             <Footer/>

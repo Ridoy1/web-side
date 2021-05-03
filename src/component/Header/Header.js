@@ -4,7 +4,7 @@ import Typical from 'react-typical'
 
 const Header = () => {
     return (
-        <section className="container pt-0" style={{height: '350px'}}>
+        <section className="container pt-0" style={{height: '352px'}}>
             <div className="overlay"></div>
             <div>
                 <h5 className="text-center pt-5" style={{color: '#3e64ff'}}>HEY! I AM</h5>
