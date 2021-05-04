@@ -18,7 +18,7 @@ const About = () => {
                         <h5 className="pb-2">Email: <span className="text-secondary pt-2"> hridoykarmakar883@gmail.com</span></h5>
                         <h5 className="pb-2">Phone: <span className="text-secondary pt-2"> +8801865557883</span></h5>
                         <h3 className="pt-3 pb-3"><span style={{color: '#3e64ff'}}>30</span> Project complete</h3>
-                        <button type="button" class="btn btn-primary rounded-pill"><a className="text-white" href="https://drive.google.com/file/d/1RPqgdgL0m09c7F_K0C0ad0dKFICk1aOP/view?usp=sharing">Download Resume</a></button>
+                        <button type="button" class="btn btn-primary rounded-pill"><a className="text-white" href="https://drive.google.com/file/d/1gyk4s1xm4Og-itwV5dDjiJfkJAjDVKAb/view?usp=sharing">Download Resume</a></button>
                     </div>
                 </div>
             </div>
