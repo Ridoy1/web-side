@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectDetails = ({project}) => {
     return (
@@ -8,7 +9,7 @@ const ProjectDetails = ({project}) => {
                 <div class="card-body text-center">
                     <h5 class="card-title">{project.name}</h5>
                     <p class="card-text">{project.details}</p>
-                    <a href={project.url} target='_blank'><button class="btn btn-primary">Show Details</button></a>
+                    <Link href={project.url} target='_blank'><button class="btn btn-primary">Show Details</button></Link>
                 </div>
             </div>
         </div>
