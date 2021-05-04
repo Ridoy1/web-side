@@ -9,7 +9,7 @@ const ProjectDetails = ({project}) => {
                 <div class="card-body text-center">
                     <h5 class="card-title">{project.name}</h5>
                     <p class="card-text">{project.details}</p>
-                    <Link href={project.url} target='_blank'><button class="btn btn-primary">Show Details</button></Link>
+                    <a href={project.url}><button class="btn btn-primary">Show Details</button></a>
                 </div>
             </div>
         </div>
