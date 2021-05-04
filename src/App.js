@@ -10,6 +10,8 @@ import AboutMe from './component/AboutMe/AboutMe/AboutMe';
 import Resume from './component/Resume/Resume/Resume';
 import MyService from './component/MyService/MyService/MyService';
 import ContactMe from './component/ContactMe/ContactMe/ContactMe';
+import MyProject from './component/MyProject/MyProject/MyProject';
+
 function App() {
   return (
     <Router>
@@ -28,6 +30,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <ContactMe/>
+        </Route>
+        <Route path="/project">
+          <MyProject/>
         </Route>
       </Switch>
     </Router>

@@ -7,7 +7,7 @@ const Message = () => {
     return (
         <div className='w-100 text-center d-flex justify-content-center' style={{backgroundColor: '#F8F9FA'}}>
             <form className=' w-75 p-5' onSubmit={handleSubmit(onSubmit)}>
-                <h1 className='p-5 text-primary'>Contact form</h1>
+                <h1 className='pb-5 text-primary text-center'>Contact form</h1>
                 <div className='row '>
                     <div className="col-md-6 col-sm-3">
                         <input placeholder='enter your name' className='form-control m-2' {...register("name", { required: true })} />

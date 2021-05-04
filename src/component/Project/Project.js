@@ -8,17 +8,20 @@ const projectData = [
     {
         name: 'Beauty center',
         img: beauty,
-        details: 'Beauty center service .'
+        details: 'Beauty center service .',
+        url: 'https://service-d4042.web.app/'
     },
     {
         name: 'Food item',
         img: food,
-        details: 'Food item list.'
+        details: 'Food item list.',
+        url:'https://ridoy1.github.io/Assignment-5/'
     },
     {
         name: 'Player',
         img: player,
-        details: 'player list and selected player list.'
+        details: 'player list and selected player list.',
+        url: 'https://affectionate-goldstine-f55d2d.netlify.app'
     }
 ]
 
